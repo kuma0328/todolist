@@ -1,7 +1,7 @@
-#usage
+# usage
 TodoListです。タスクの追加、削除、更新、編集ができます。
 
-#URL
+# URL
 https://kuma0328.github.io/todolist/
 
 # Getting Started with Create React App
