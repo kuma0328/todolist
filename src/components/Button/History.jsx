@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ShowTodoList from "../ShowTodoList"
 
-const History = ({todos, setTodos}) => {
+const History = ({ todos, setTodos }) => {
   const [switchText, setSwitchText] = useState(true);
 
   const handleHistory = () => {

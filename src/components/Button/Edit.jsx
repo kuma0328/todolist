@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 
-const Edit = ({todo, todos, setTodos}) => {
+const Edit = ({ todo, todos, setTodos }) => {
   const [edit, setEdit] = useState(false);
   const todoNameRef = useRef();
 

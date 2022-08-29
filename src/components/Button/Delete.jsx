@@ -1,5 +1,5 @@
 
-const Delete = ({todo, todos, setTodos}) => {
+const Delete = ({ todo, todos, setTodos }) => {
   const handleClear = () => {
     const new_Todos = todos.filter((Todo) => Todo !== todo);
     setTodos(new_Todos);

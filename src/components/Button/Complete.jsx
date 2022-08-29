@@ -1,5 +1,5 @@
 
-const Complete = ({todo, todos, setTodos, switchText}) => {
+const Complete = ({ todo, todos, setTodos, switchText }) => {
   const handleCheck = () => {
     const new_Todos = [...todos];
     const new_todo = new_Todos.find((Todo) => Todo === todo)
