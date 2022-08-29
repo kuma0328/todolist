@@ -7,8 +7,9 @@ const Delete = ({ todo, todos, setTodos }) => {
 
   return (
     <>
-      <button onClick={handleClear} className="border border-black hover:opacity-50 px-1"
-      >削除</button>
+      <button onClick={handleClear}
+      className="flex-no-shrink p-2 ml-2 border-2 rounded text-red border-red hover:text-white hover:bg-red"
+      >Remove</button>
     </>
   )
 }

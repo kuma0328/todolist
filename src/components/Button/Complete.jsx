@@ -10,10 +10,10 @@ const Complete = ({ todo, todos, setTodos, switchText }) => {
   return (
     <>
       <div>{ switchText ? 
-      <button onClick={handleCheck} className="border border-black hover:opacity-50 px-1"
-      >完了</button> : <div></div>
+      <button onClick={handleCheck} 
+      className="flex-no-shrink p-2 ml-4 mr-2 border-2 rounded hover:text-white text-green border-green hover:bg-green"
+      >Done</button> : <div></div>
       }</div>
-      <div className="px-2"></div>
     </>
   )
 }

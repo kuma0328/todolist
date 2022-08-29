@@ -2,7 +2,7 @@ import { Edit, Complete, Delete } from "./Button/index"
 
 const Todo = ({ todos, todo, setTodos, switchText }) => {
   return (
-    <div className="flex flex-row py-6 text-xl border-b-4">
+    <div className="flex mb-4 items-center border-b-4 py-4">
       <Edit 
       todo={todo}
       todos={todos}

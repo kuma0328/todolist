@@ -15,10 +15,12 @@ const Add = ({setTodos}) => {
 
   return (
     <>
-      <div className="text-2xl">
-        <input type="text" ref={todoNameRef} placeholder="タスクを入力してください" className="border border-black"/>
-        <button onClick={handleAddTodo} className="hover:opacity-50 pl-1 pr-1 border border-black">
-          追加</button>
+      <div className="mb-4 flex mt-4">
+        <input type="text" ref={todoNameRef} placeholder="Add Todo" 
+        className="shadow appearance-none border rounded w-full py-2 px-3 mr-4 text-grey-darker"/>
+        <button onClick={handleAddTodo} 
+        className="flex-no-shrink p-2 border-2 rounded text-teal border-teal hover:text-white hover:bg-teal">
+          Add</button>
       </div>
     </>
   )

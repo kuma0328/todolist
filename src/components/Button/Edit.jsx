@@ -17,20 +17,25 @@ const Edit = ({ todo, todos, setTodos }) => {
   };
   return (
     <>
-      <button onClick={handleEdit} className="border border-black hover:opacity-50 px-1">編集</button>
-        <div className="px-2"></div>
+      <button onClick={handleEdit} 
+      className="flex-no-shrink p-2 ml-4 mr-2 border-2 rounded hover:text-white text-grey border-grey hover:bg-grey">
+        Edit</button>
           <div>
           { edit ? 
           <React.Fragment>
-            <input type="text" name="" id="" ref={todoNameRef} placeholder={todo.name}/>
-            <button onClick={handleChangeText} className="border border-black hover:opacity-50 px-1"
-            >編集完了
+            <div className="flex flex-row">
+            <input type="text" name="" id="" ref={todoNameRef} placeholder={todo.name}
+            className="shadow appearance-none border rounded w-full py-2 px-3 mr-4 text-grey-darker"
+            />
+            <button onClick={handleChangeText}
+            className="flex-no-shrink border-2 rounded text-teal border-teal hover:text-white hover:bg-teal"
+            >Edit Done
             </button>
+            </div>
           </React.Fragment>
           :
-          <div>{todo.name}</div>
+          <div className="w-full text-grey-darkest">{todo.name}</div>
           }</div>
-      <div className="px-2"></div>
     </>
   )
 }
