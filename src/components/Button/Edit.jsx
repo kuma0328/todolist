@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
+import ShowText from "../ShowText";
 
-const Edit = ({ todo, todos, setTodos }) => {
+const Edit = ({ todo, todos, setTodos, switchText }) => {
   const [edit, setEdit] = useState(false);
   const todoNameRef = useRef();
 
@@ -34,8 +35,11 @@ const Edit = ({ todo, todos, setTodos }) => {
             </div>
           </React.Fragment>
           :
-          <div className="w-full text-grey-darkest">{todo.name}</div>
-          }</div>
+          <ShowText 
+          switchText={switchText}
+          text={todo.name}
+          />
+      }</div>
     </>
   )
 }

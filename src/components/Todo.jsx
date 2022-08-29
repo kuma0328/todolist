@@ -7,6 +7,7 @@ const Todo = ({ todos, todo, setTodos, switchText }) => {
       todo={todo}
       todos={todos}
       setTodos={setTodos}
+      switchText={switchText}
       />
       <Complete 
       todo={todo}
