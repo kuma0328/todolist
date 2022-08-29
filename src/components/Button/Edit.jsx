@@ -19,7 +19,7 @@ const Edit = ({ todo, todos, setTodos, switchText }) => {
   return (
     <>
       <button onClick={handleEdit} 
-      className="flex-no-shrink p-2 ml-4 mr-2 border-2 rounded hover:text-white text-grey border-grey hover:bg-grey">
+      className="flex-no-shrink p-2 ml-4 mr-2 border-2 rounded hover:text-white text-gray-400 border-grey-400 hover:bg-grey-200">
         Edit</button>
           <div>
           { edit ? 
@@ -29,7 +29,7 @@ const Edit = ({ todo, todos, setTodos, switchText }) => {
             className="shadow appearance-none border rounded w-full py-2 px-3 mr-4 text-grey-darker"
             />
             <button onClick={handleChangeText}
-            className="flex-no-shrink border-2 rounded text-teal border-teal hover:text-white hover:bg-teal"
+            className="flex-no-shrink border-2 rounded text-gray-400 border-teal hover:text-white hover:bg-teal"
             >EditDone
             </button>
             </div>

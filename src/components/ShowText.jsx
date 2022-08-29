@@ -3,9 +3,9 @@ const ShowText = ({ switchText, text}) => {
     <>
       {
         switchText ? 
-        <div className="w-full text-grey-darkest">{text}</div>
+        <div className="w-full text-gray-500">{text}</div>
         :
-        <div className="w-full line-through text-green">{text}</div>
+        <div className="w-full line-through text-gray-400">{text}</div>
       }
     </>
   )

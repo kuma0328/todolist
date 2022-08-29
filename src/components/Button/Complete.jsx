@@ -11,7 +11,7 @@ const Complete = ({ todo, todos, setTodos, switchText }) => {
     <>
       <div>{ switchText ? 
       <button onClick={handleCheck} 
-      className="flex-no-shrink p-2 ml-4 mr-2 border-2 rounded hover:text-white text-green border-green hover:bg-green"
+      className="flex-no-shrink p-2 ml-4 mr-2 border-2 rounded hover:text-white text-green-400 border-green-200 hover:bg-green"
       >Done</button> : <div></div>
       }</div>
     </>

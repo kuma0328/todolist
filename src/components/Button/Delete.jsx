@@ -8,7 +8,7 @@ const Delete = ({ todo, todos, setTodos }) => {
   return (
     <>
       <button onClick={handleClear}
-      className="flex-no-shrink p-2 ml-2 border-2 rounded text-red border-red hover:text-white hover:bg-red"
+      className="flex-no-shrink p-2 ml-2 border-2 rounded text-red-400 border-red-200 hover:text-white hover:bg-red"
       >Remove</button>
     </>
   )
