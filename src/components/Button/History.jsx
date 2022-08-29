@@ -5,7 +5,7 @@ const History = ({ switchText, setSwitchText }) => {
   };
 
   return (
-    <div>
+    <>
       <div className="mb-4 flex mt-4 border-b-4 border-slate-500 py-4">
         <button
         onClick={handleHistory}
@@ -18,7 +18,7 @@ const History = ({ switchText, setSwitchText }) => {
           </div>
         </button>
       </div>
-    </div>
+    </>
   )
 }
 

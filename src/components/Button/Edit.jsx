@@ -29,7 +29,7 @@ const Edit = ({ todo, todos, setTodos }) => {
             />
             <button onClick={handleChangeText}
             className="flex-no-shrink border-2 rounded text-teal border-teal hover:text-white hover:bg-teal"
-            >Edit Done
+            >EditDone
             </button>
             </div>
           </React.Fragment>
