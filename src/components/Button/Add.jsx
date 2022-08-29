@@ -19,7 +19,7 @@ const Add = ({setTodos}) => {
         <input type="text" ref={todoNameRef} placeholder="Add Todo" 
         className="shadow appearance-none border rounded w-full py-2 px-3 mr-4 text-grey-darker"/>
         <button onClick={handleAddTodo} 
-        className="flex-no-shrink p-2 border-2 rounded text-red-800 border-teal hover:text-white hover:bg-teal">
+        className="flex-no-shrink p-2 border-2 rounded text-red-800 border-gray-200 hover:text-white hover:bg-gray-300">
           Add</button>
       </div>
     </>

@@ -11,8 +11,8 @@ const History = ({ switchText, setSwitchText }) => {
         onClick={handleHistory}
         ><div> {
           switchText ? 
-          <div className="text-teal-400 p-2 border-2 border-teal-200 rounded flex-no-shrink hover:text-white hover:bg-teal">now</div> : 
-          <div className="text-pink-400 p-2 border-2 border-pink-200 rounded flex-no-shrink hover:text-white hover:bg-teal">past</div>
+          <div className="text-teal-400 p-2 border-2 border-teal-200 rounded flex-no-shrink hover:text-white hover:bg-teal-200">now</div> : 
+          <div className="text-pink-400 p-2 border-2 border-pink-200 rounded flex-no-shrink hover:text-white hover:bg-pink-200">past</div>
           }
           </div>
         </button>
