@@ -2,7 +2,7 @@ import { useState } from "react";
 import { History, Add } from "./Button/index"
 import ShowTodoList from "./ShowTodoList"
 
-const Todolists = () => {
+const Todolist = () => {
   const [todos, setTodos] = useState([]);
   const [switchText, setSwitchText] = useState(true);
 
@@ -24,4 +24,4 @@ const Todolists = () => {
   )
 }
 
-export default Todolists
+export default Todolist
